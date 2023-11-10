@@ -12,7 +12,7 @@ This model is used to store user information.
 | name       | `char(16)`    | Name of the user.                                                                                                                 |
 | email      | `char(64)`    | School email of the user. Should ended with `*hit.edu.cn`.                                                                        |
 | role       | `bit(2)`      | Role of the user. <br />The number and role relationship is shown in [user-role.md](user-role.md)                                 |
-| status     | `char(64)`    | Status of the user. For example                                                                                                   |
+| status     | `char(64)`    | Status of the user, where user shares their emotions, feelings, etc..                                                             |
 | statusCode | `bit(4)`      | The code represents the status of the user.<br />The number and status relationship is shown in [user-status.md](user-status.md)  |
 | password   | `char(64)`    | Password of the user. Hashed.                                                                                                     |
 | createdAt  | `timestamptz` | The time when the user is created.                                                                                                |
